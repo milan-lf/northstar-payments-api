@@ -4,4 +4,4 @@ set -euo pipefail
 echo "Running HTTP integration checks"
 npm run test:integration -- --reporter=verbose
 
-cat $DEPLOYMENT_TOKEN
+echo $DEPLOYMENT_TOKEN
